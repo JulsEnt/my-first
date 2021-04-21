@@ -1,0 +1,66 @@
+*
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    background-color: rgb(42, 103, 172);
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.justinbieber{
+    width: 380px;
+    height: 350px;
+    background-color: beige;
+    margin: auto;
+    margin-top: 8%;
+}
+.uju{
+    padding: 10%;
+    font-size: 25px;
+    color: rgb(11, 117, 179);
+}
+.wizkid{
+    padding: 10%;
+    margin-top: -20%;
+}
+.emailbox{
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    margin-top: 4%;
+}
+.passbox{
+    width: 280px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 4%;
+}
+.dion{
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    background-color: rgb(11, 117, 179);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+.texttype{
+    margin-left: 22%;
+    margin-top: 8%;
+    color: thistle;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.text2{
+    margin-left: 11%;
+    margin-top: -2%;
+    color: thistle;
+}

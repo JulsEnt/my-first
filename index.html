@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register page</title>
+    </head>
+    <body>
+        <a href="indexhome.html">
+            Home
+        </a>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;"><b>Background Check Authorization Form</b><br>For Business Personnel Only</p>
+        <br>
+        <br>
+        <form>
+            <input style="width: 400px;" type="text" id="Name" placeholder="First Name">    <input style="width: 400px;" type="text" placeholder="Last Name">
+            <p style="font-size: 14px;">Have you used a different Name in the Past?</p>
+            <input type="checkbox" name="yes" value="yes">Yes<br>
+            <input type="checkbox" name="No" value="No">No
+            <p style="font-size: 14px;">If yes, Please state Former Name(s) and Dates Used</p>
+            <input style="width: 810px; height:90px;" type="text">
+            <br>
+            <br>
+            <p style="font-size: 14px;">Relatioship Status</p>
+            <select style="width: 815px;" name="Relatioship Status">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorce">Divorce</option>
+                <option value="Complicated">Complicated</option>
+            </select>
+            <br>
+            <br>
+            <input style="width: 810px;" type="text" id="address" placeholder="Street Address" required>
+            <br>
+            <br>
+            <input style="width: 810px;" type="text" id="address" placeholder="Street Address 2" required>
+            <br>
+            <br>
+            <input style="width: 400px;" type="text" id="city" placeholder="city" required>    <input style="width: 400px;" type="text" placeholder="Region" required>
+            <br>
+            <br>
+            <input style="width: 400px;" type="number" id="postalcode" placeholder="Postal/zip code" required>    <input style="width: 400px;" type="country" placeholder="Country" required>
+            <br>
+            <br>
+            <p style="font-size: 14px;">Date of birth</p>
+            <input style="width: 810px;" type="date">
+            <br>
+            <br>
+            <input style="width: 810px;" type="text" id="name" placeholder="Next of Kin" required>
+            <br>
+            <br>
+            <input style="width: 810px;" type="tel" id="tel" placeholder="Phone Number" required>
+            <br>
+            <br>
+            <p style="font-size: 14px;">Driver's Lisence state</p>
+            <input style="width: 400px;" type="text" id="text" placeholder="state" required>  <input style="width: 400px;" type="text" id="text" placeholder="Country">
+            <br>
+            <br>
+            <p style="font-size: 14px;">Electronic Signature</p>
+            <input style="width: 810px; height:90px;" type="">
+            <br>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </body>
+</html>
